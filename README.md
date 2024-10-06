@@ -49,4 +49,16 @@ The code uses data from the `NASA_filtered_imaging.csv` file, which includes var
 4. **Output**: The processed data will be saved in a new file called `NASA_important_data_filled.csv`.
 
 ## Project Structure
+├── NASA_filtered_imaging.csv # Input exoplanet data file ├── habitable_calculator.py # Main script for data processing and filling missing values ├── formula.py # Contains helper functions for various astronomical calculations ├── corona_graph.py # Logic for analyzing and plotting data related to coronagraphs ├── README.md # Project documentation └── NASA_important_data_filled.csv # Output file with filled missing values
+
+## Requirements
+- Python 3.x
+- Pandas
+- NumPy
+
+## Installation
+Install the required packages using pip:
+
+```bash
+pip install pandas numpy
 
